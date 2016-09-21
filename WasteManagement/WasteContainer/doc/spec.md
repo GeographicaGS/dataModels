@@ -39,7 +39,7 @@ to keep backwards compatibility with current FIWARE reference implementations.
     + Attribute metadata:
         + `dateUpdated`: Timestamp when the last update of the attribute happened.
             + Type: [DateTime](http://schema.org/DateTime)
-        + `TimeInstant` : Timestamp saved by FIWARE's IoT Agents. Note: This attribute has not been harmonized
+        + `TimeInstant` : [Timestamp](https://github.com/telefonicaid/iotagent-node-lib/blob/develop/README.md#TimeInstant) saved by FIWARE's IoT Agents. Note: This attribute has not been harmonized
 to keep backwards compatibility with current FIWARE reference implementations. 
             + Type: [DateTime](https://schema.org/DateTime). There can be production environmments where the attribute type
     is equal to the `ISO8601` string. If so, it must be considered as a synonym of `DateTime`.    
