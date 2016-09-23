@@ -165,6 +165,18 @@ This value must aggregate free spots from all groups devoted to special parking 
     + Default unit: Meters
     + Optional
 
++ `maximumAllowedHeight` : Maximum allowed height for vehicles. If there are multiple zones, it will be the minimum height of
+all the zones.
+    + Attribute type: [Number](http://schema.org/Number)
+    + Default unit: Meters
+    + Optional
+
++ `maximumAllowedWidth` : Maximum allowed width for vehicles. If there are multiple zones, it will be the minimum width of
+all the zones.
+    + Attribute type: [Number](http://schema.org/Number)
+    + Default unit: Meters
+    + Optional
+
 + `acceptedPaymentMethod` : Accepted payment method(s)
     + Normative references: https://schema.org/acceptedPaymentMethod
     + Optional
