@@ -59,6 +59,11 @@ per group type.
     + Normative References: [https://schema.org/description](https://schema.org/description)
     + Optional
 
++ `floorNumber` : For parking sites with multiple floor levels, floor of this group.
+    + Attribute type: [Number](http://schema.org/Number)
+    + Allowed values: An integer number. 0 is ground level. Upper floors are positive numbers. Lower floors are negative ones.
+    + Optional
+
 + `maximumAParkingDuration` : Maximum allowed stay encoded as a ISO8601 duration (`null` if indefinite).
 Applications *SHOULD* inspect the value of this property at parent's level if it is not defined. 
     + Attribute type: [Text](http://schema.org/Text)
