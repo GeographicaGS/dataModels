@@ -59,6 +59,19 @@ per group type.
     + Normative References: [https://schema.org/description](https://schema.org/description)
     + Optional
 
++ `status` : Status of the parking group.
+    + Attribute type: List of [Text](http://schema.org/Text)
+    + Metadata:
+        + `timestamp` : Timestamp of the last attribute update
+        + Type: [DateTime](https://schema.org/DateTime)
+    + Allowed values: The following defined by the following enumerations defined by DATEX II version 2.3 :
+        + *ParkingSiteStatusEnum*
+        + *OpeningStatusEnum*
+        + (`open`, `closed`, `closedAbnormal`,`openingTimesInForce`, `full`,
+           `fullAtEntrance`, `spacesAvailable`, `almostFull`)
+        + Or any other application-specific
+    + Optional
+
 + `floorNumber` : For parking sites with multiple floor levels, floor of this group.
     + Attribute type: [Number](http://schema.org/Number)
     + Allowed values: An integer number. 0 is ground level. Upper floors are positive numbers. Lower floors are negative ones.

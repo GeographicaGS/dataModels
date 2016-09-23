@@ -97,7 +97,20 @@ A `null` or empty value indicates an indefinite duration.
 + `description` : Description about the onstreet parking zone. 
     + Normative References: [https://schema.org/description](https://schema.org/description)
     + Optional
-    
+
++ `status` : Status of the parking site.
+    + Attribute type: List of [Text](http://schema.org/Text)
+    + Metadata:
+        + `timestamp` : Timestamp of the last attribute update
+        + Type: [DateTime](https://schema.org/DateTime)
+    + Allowed values: The following defined by the following enumerations defined by DATEX II version 2.3 :
+        + *ParkingSiteStatusEnum*
+        + *OpeningStatusEnum*
+        + (`open`, `closed`, `closedAbnormal`,`openingTimesInForce`, `full`,
+           `fullAtEntrance`, `spacesAvailable`, `almostFull`)
+        + Or any other application-specific
+    + Optional
+
 + `areBordersMarked` : Denotes whether parking spots are delimited (with blank lines or similar) or not.
     + Attribute type: [Boolean](https://schema.org/Boolean)
     + Optional
