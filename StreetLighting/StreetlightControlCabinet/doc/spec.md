@@ -75,7 +75,11 @@ responsible, district, neighbourhood, etc.
 + `dateLastProgramming` : Date at which there was a programming operation over the cabinet.
     + Attribute Type: [Date](http://schema.org/DateTime)
     + Optional
-    
+
++ `dateLastInvoice` : Date at which the last invoice for the cabinet was issued.
+    + Attribute Type: [Date](http://schema.org/DateTime)
+    + Optional
+
 + `nextActuationDeadline` : Deadline for next actuation to be performed (programming, testing, etc.).
     + Attribute Type: [DateTime](http://schema.org/DateTime)
     + Optional   
