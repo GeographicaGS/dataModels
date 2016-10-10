@@ -76,7 +76,7 @@ responsible, district, neighbourhood, etc.
     + Attribute Type: [Date](http://schema.org/DateTime)
     + Optional
 
-+ `dateLastInvoice` : Date at which the last invoice for the cabinet was issued.
++ `dateLastInvoice` : Date at which the last invoice corresponding to the energy consumed by the circuits controlled by this cabinet.
     + Attribute Type: [Date](http://schema.org/DateTime)
     + Optional
 
